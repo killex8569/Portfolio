@@ -5,11 +5,10 @@
   }
 #contenue {
   font-family: 'CustomFont', 'Montserrat Alternates', sans-serif;
-  background: url('./data/BG_10_portfolio.jpg') no-repeat center center/cover;
+  background: url('./data/bg-test.jpg') no-repeat center center/cover; /* contentue page */
   text-align: center;
   background-color: #f5f5f5;
-  color: #000000;
-
+  color: #d0c8c8;
 }
 
 html {

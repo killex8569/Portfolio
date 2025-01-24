@@ -7,12 +7,8 @@
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="/New Portfolio 2025/data/bootstrap/css/bootstrap.min.css">
-  <script src="/New Portfolio 2025/data/bootstrap/js/bootstrap.bundle.js"></script>
-  <link rel="stylesheet" href="/New Portfolio 2025/data/bootstrap/css/police-ecriture.css">
-
-
-
-    <!-- Importation du script JS -->
+    <script src="/New Portfolio 2025/data/bootstrap/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="/New Portfolio 2025/data/bootstrap/css/police-ecriture.css">
     <script src="script.js" defer></script>
   </head>
   <body>
@@ -40,12 +36,14 @@
         Je suis étudiant en BTS SIO de deuxième année à L'institution des
         chartreux, passionné par la cybersécurité et les nouvelles technologies.
       </p>
-      <a href="#about" class="btn">En savoir plus sur ma formation</a>
+      <button type="button" class="btn btn-primary">En apprendre plus sur ma formation</button>
+
     </section>
 
     <!-- Section À propos -->
 
     <!-- Section Projets -->
+<section id="contenue">
     <section id="certif" class="section">
       <h2>Mes Certifications</h2>
       <div class="certif-container">
@@ -54,16 +52,16 @@
           <p>Le mooc de l'anssi nous permet d'obtenir les base de la cybersécurité</p>
           <!--button on bootstrap-->
           <div class="btn-group">
-            <a href="/New Portfolio 2025/data/certification/Mooc de l'anssi alex.pdf" target="_blank"><button type="button" class="btn btn-danger">voir le document</button></a>
-            <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+            <a href="/New Portfolio 2025/data/certification/Mooc de l'anssi alex.pdf" target="_blank"><button type="button" class="btn btn-primary">voir le document</button></a>
+            <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
               <span class="visually-hidden">Toggle Dropdown</span>
             </button>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="/New Portfolio 2025/data/certification/Mooc de l'anssi alex.pdf" target="_blank">voir le document</a></li>
               <li><a class="dropdown-item" href="#">Information supplémentaires</a></li>
-              <li><a class="dropdown-item" href="#">Voir le site</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">mon linkedin</a></li>
+              <li><a class="dropdown-item" href="https://www.linkedin.com/in/alexandre-faubladier-anette-750967277/">Mon Linkedin</a></li>
+              <li><a class="dropdown-item" href="https://github.com/killex8569">Mon Github</a></li>
             </ul>
           </div>
 
@@ -72,25 +70,37 @@
           <h3>Certification language C - Netacad</h3>
           <p>La certification de la netacad nous apprend les base du C, permettant ainsi de développer ses compétences dans différents domaines</p>
           <div class="certif-container">
-            <a href=""><button>Voir ma certification</button></a>
+            <div class="btn-group">
+              <a href="#" target="_blank"><button type="button" class="btn btn-primary">voir le document</button></a>
+              <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="visually-hidden">Toggle Dropdown</span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/New Portfolio 2025/data/certification/Mooc de l'anssi alex.pdf" target="_blank">voir le document</a></li>
+                <li><a class="dropdown-item" href="#">Information supplémentaires</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="https://www.linkedin.com/in/alexandre-faubladier-anette-750967277/">Mon Linkedin</a></li>
+                <li><a class="dropdown-item" href="https://github.com/killex8569">Mon Github</a></li>
+              </ul>
+            </div>
           </div>
         </div>
         <div class="certif">
           <h3>Mooc vigipirate</h3>
           <p>Le MOOC Vigipirate sensibilise aux enjeux de la sécurité nationale et au rôle de chacun dans la prévention des menaces</p>
-          
+
           <!--button on bootstrap-->
           <div class="btn-group">
-            <button type="button" class="btn btn-danger">Action</button>
-            <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+            <a href="/New Portfolio 2025/data/certification/Mooc de l'anssi alex.pdf" target="_blank"><button type="button" class="btn btn-primary">voir le document</button></a>
+            <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
               <span class="visually-hidden">Toggle Dropdown</span>
             </button>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="/New Portfolio 2025/data/certification/Mooc de l'anssi alex.pdf" target="_blank">voir le document</a></li>
+              <li><a class="dropdown-item" href="#">Information supplémentaires</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Separated link</a></li>
+              <li><a class="dropdown-item" href="https://www.linkedin.com/in/alexandre-faubladier-anette-750967277/">Mon Linkedin</a></li>
+              <li><a class="dropdown-item" href="https://github.com/killex8569">Mon Github</a></li>
             </ul>
           </div>
           
@@ -98,15 +108,42 @@
         <div class="certif">
             <h3>FCF - Fortinet</h3>
             <p>la formation de Fortinet FCF couvre les bases de la cybersécurité et l'utilisation des solutions Fortinet</p>
-            <a href="/data/certification/Fortinet_Certified_Fundamentals_in_Cybersecurity.pdf"><button>Voir ma certification</button></a>
+            <div class="btn-group">
+              <a href="/New Portfolio 2025/data/certification/Fortinet_Certified_Fundamentals_in_Cybersecurity.pdf" target="_blank"><button type="button" class="btn btn-primary">voir le document</button></a>
+              <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="visually-hidden">Toggle Dropdown</span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/New Portfolio 2025/data/certification/Fortinet_Certified_Fundamentals_in_Cybersecurity.pdf" target="_blank">voir le document</a></li>
+                <li><a class="dropdown-item" href="#">Information supplémentaires</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="https://www.linkedin.com/in/alexandre-faubladier-anette-750967277/">Mon Linkedin</a></li>
+                <li><a class="dropdown-item" href="https://github.com/killex8569">Mon Github</a></li>
+              </ul>
+            </div>
           </div>
           <div class="certif">
             <h3>certification scolaire</h3>
             <p>CSNA - Stormshield</p>
-            <a href="/data/certification/FAUBLADIER_ANETTE_Alexandre_CSNA.pdf"><button>Voir ma certification</button></a>
+            <div class="btn-group">
+              <a href="/New Portfolio 2025/data/certification/FAUBLADIER_ANETTE_Alexandre_CSNA.pdf" target="_blank"><button type="button" class="btn btn-primary">voir le document</button></a>
+              <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="visually-hidden">Toggle Dropdown</span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/New Portfolio 2025/data/certification/FAUBLADIER_ANETTE_Alexandre_CSNA.pdf" target="_blank">voir le document</a></li>
+                <li><a class="dropdown-item" href="#">Information supplémentaires</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="https://www.linkedin.com/in/alexandre-faubladier-anette-750967277/">Mon Linkedin</a></li>
+                <li><a class="dropdown-item" href="https://github.com/killex8569">Mon Github</a></li>
+              </ul>
+            </div>
           </div>
   </div>
-    </section>
+
+<br>
+  </section>
+</section>
 
     <!-- Section informations -->
     <section id="contact" class="section">
@@ -123,7 +160,7 @@
         >
           Envoyer un email
         </button>
-        <br /><br />
+
       </form>
     </section>
   </body>
